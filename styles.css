@@ -90,7 +90,7 @@ pointer; } */
 .content {
   padding: 30px;
 }
-.content h1 {
+.content-h {
   font-size: 24px;
   margin-bottom: 10px;
 }
@@ -109,8 +109,7 @@ Cards */
   /* flex: 1; */
   background-color: #e5e7eb;
   border-radius: 20px;
-  padding: 32px; /* width: 398px;
-height: 325px; */
+  padding: 32px;
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -126,12 +125,12 @@ height: 325px; */
   color: #5b4bdb;
   margin-bottom: 15px;
 }
-.card h2 {
+.card-h {
   margin-bottom: 10px;
   font-size: 18px;
   font-weight: 600;
 }
-.card p {
+.card-p {
   color: #666;
   font-size: 14px;
   line-height: 1.5;
