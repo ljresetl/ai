@@ -8,83 +8,102 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
 
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
+    <!-- Ліва панель -->
     <div class="dashboard">
-      <!-- Sidebar -->
       <aside class="sidebar">
         <div class="logo">
           <a href="" class="mobile-menu-social-link">
-            <svg class="social-icon" width="210" height="72">
+            <svg class="social-icon-desk" width="210" height="72">
               <use href="./images/icons.svg#icon-1"></use>
             </svg>
           </a>
         </div>
         <nav class="menu">
-          <a href="#" class="active"
-            ><svg class="social-icon-menu" width="20" height="22">
+          <a href="#" class="active">
+            <svg class="social-icon-menu" width="20" height="22">
               <use href="./images/icons.svg#icon-Group"></use>
             </svg>
-            Home</a
-          >
-          <a href="#" class="active"
-            ><svg class="social-icon-menu" width="20" height="22">
+            Home
+          </a>
+          <a href="#" class="active">
+            <svg class="social-icon-menu" width="20" height="22">
               <use href="./images/icons.svg#icon-Vector"></use>
             </svg>
-            Calendar</a
-          >
-          <a href="#" class="active"
-            ><svg class="social-icon-menu" width="20" height="22">
+            Calendar
+          </a>
+          <a href="#" class="active">
+            <svg class="social-icon-menu" width="20" height="22">
               <use href="./images/icons.svg#icon-Vector-1"></use>
             </svg>
-            Resources</a
-          >
+            Resources
+          </a>
         </nav>
         <div class="menu-bottom">
-          <a href="#" class="menu-bottom-a"
-            ><svg class="social-icon-menu" width="20" height="22">
+          <a href="#" class="menu-bottom-a">
+            <svg class="social-icon-menu" width="20" height="22">
               <use href="./images/icons.svg#icon-Vector-2"></use>
             </svg>
-            Setting</a
-          >
-          <a href="#"
-            ><svg class="social-icon-menu" width="20" height="22">
+            Setting
+          </a>
+          <a href="#">
+            <svg class="social-icon-menu" width="20" height="22">
               <use href="./images/icons.svg#icon-Group-1"></use>
             </svg>
-            Log out</a
-          >
+            Log out
+          </a>
         </div>
       </aside>
-
-      <!-- Main -->
-      <main class="main">
-        <header class="topbar">
-          <div class="topbar-icons">
-            <button class="topbar-button">
-              <svg class="social-icon-menu one" width="20" height="22">
-                <use href="./images/icons.svg#icon-Group-2"></use>
-              </svg>
-            </button>
-            <button class="topbar-button">
-              <svg class="social-icon-menu one" width="20" height="22">
-                <use href="./images/icons.svg#icon-Vector-4"></use>
-              </svg>
-            </button>
-            <img
-              class="avatar"
-              src="./images/Avatar.png"
-              srcset="./images/Avatar.png 1x, ./images/Avatar2x.png 2x"
-              alt="User"
-              width="40"
-              height="40"
-            />
-          </div>
-        </header>
-
-        <section class="content">
-          <h1 class="content-h">AI Assistant</h1>
+    </div>
+    <!-- хеадер початок -->
+    <header class="header">
+      <div class="container">
+        <div class="logo">
+          <a href="" class="mobile-menu-social-link">
+            <svg class="social-icon" width="121" height="42">
+              <use href="./images/icons.svg#icon-1"></use>
+            </svg>
+          </a>
+        </div>
+        <div class="button-button-img">
+          <button class="topbar-button">
+            <svg class="social-icon-menu" width="16" height="16">
+              <use href="./images/icons.svg#icon-Group-2"></use>
+            </svg>
+          </button>
+          <button class="topbar-button">
+            <svg class="social-icon-menu" width="16" height="16">
+              <use href="./images/icons.svg#icon-Vector-4"></use>
+            </svg>
+          </button>
+          <img
+            class="avatar"
+            src="./images/Avatar.png"
+            srcset="./images/Avatar.png 1x, ./images/Avatar2x.png 2x"
+            alt="User"
+            width="16"
+            height="16"
+          />
+          <button class="topbar-button topbar-button-2">
+            <svg class="social-icon-menu-b" width="24" height="24">
+              <use href="./images/icons.svg#icon-Vector-6"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+    <!-- хеадер кінець -->
+    <main>
+      <section class="main-section">
+        <div class="container my">
+          <a class="my-a" href="https://example.com">AI Assistant</a>
           <p class="description">
             An AI assistant in a time management app helps users plan their day
             more efficiently: it analyzes tasks, priorities, and deadlines,
@@ -107,7 +126,7 @@
             </div>
             <div class="card">
               <div class="icon">
-                <svg class="social-icon-menu-cards" width="88" height="88">
+                <svg class="social-icon-menu-cards-two" width="88" height="88">
                   <use href="./images/icons.svg#icon-carbon_chat-bot"></use>
                 </svg>
               </div>
@@ -118,8 +137,17 @@
               </p>
             </div>
           </div>
-        </section>
-      </main>
-    </div>
+          <img
+            class="robot-img"
+            src="./images/r1x.png"
+            srcset="./images/r1x.png 1x, ./images/r2x.png 2x"
+            sizes="(min-width: 1440px) 517px, 517px"
+            alt="robot"
+            width="264"
+            height="320"
+          />
+        </div>
+      </section>
+    </main>
   </body>
 </html>
